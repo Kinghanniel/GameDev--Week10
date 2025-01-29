@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,7 +9,7 @@ public class GameEventListener : MonoBehaviour
     //This is the event S.O. we will OBSERVE
     [SerializeField] GameEvent gameEvent;
     //This will be the response executed when the event is raised
-    [SerializeField] UnityEvent response;            
+    [SerializeField] UnityEvent response;
 
     private void OnEnable()
     {

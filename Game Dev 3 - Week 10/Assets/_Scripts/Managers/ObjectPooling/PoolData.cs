@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameDevWithMarco.DesignPattern
@@ -11,6 +10,6 @@ namespace GameDevWithMarco.DesignPattern
         //To store the prefab to use in the pool
         public GameObject poolItem;
 
-       
+
     }
 }

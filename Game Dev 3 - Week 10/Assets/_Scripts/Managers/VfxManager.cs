@@ -1,8 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Kino;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Kino;
 
 namespace GameDevWithMarco.Managers
 {

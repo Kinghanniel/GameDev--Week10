@@ -1,7 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using GameDevWithMarco.Managers;
+using UnityEngine;
 
 namespace GameDevWithMarco.DesignPattern
 {
@@ -29,8 +28,8 @@ namespace GameDevWithMarco.DesignPattern
             FillThePool(lifePackagePoolData, lifePool);
         }
 
-            
-     
+
+
 
         private void FillThePool(PoolData poolData, List<GameObject> targetPoolContainer)
         {

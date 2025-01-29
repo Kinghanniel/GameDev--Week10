@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace GameDevWithMarco.Managers
@@ -46,7 +44,7 @@ namespace GameDevWithMarco.Managers
 
         public void GoodPickupSound()
         {
-            PlaySound( goodPickupSoundData.minPitchValue, goodPickupSoundData.maxPitchValue,
+            PlaySound(goodPickupSoundData.minPitchValue, goodPickupSoundData.maxPitchValue,
                       goodPickupSoundData.clipToUse, goodPickupSoundData.soundVolume);
         }
         public void BadPickupSound()

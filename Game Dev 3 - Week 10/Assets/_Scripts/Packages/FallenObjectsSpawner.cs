@@ -1,8 +1,7 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using GameDevWithMarco.Managers;
 using GameDevWithMarco.DesignPattern;
+using GameDevWithMarco.Managers;
+using UnityEngine;
 
 namespace GameDevWithMarco
 {
@@ -38,7 +37,7 @@ namespace GameDevWithMarco
             StartCoroutine(SpawningLoop());
         }
 
-   
+
 
         private void SapwnPackageAtRaondomLocation(ObjectPoolingPattern.TypeOfPool poolType)
         {
@@ -106,7 +105,7 @@ namespace GameDevWithMarco
             {
                 goodPackageDropPercentage = minimum_GoodPackageDropPercentage;
                 badPackageDropPercentage = maximum_badPackageDropPercentage;
-            
+
             }
         }
 

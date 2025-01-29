@@ -1,5 +1,5 @@
-﻿using UnityEngine;
-using GameDevWithMarco.Interfaces;
+﻿using GameDevWithMarco.Interfaces;
+using UnityEngine;
 
 namespace GameDevWithMarco.Player
 {

@@ -1,9 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 
 namespace GameDevWithMarco.Managers
@@ -22,7 +21,7 @@ namespace GameDevWithMarco.Managers
         public string testString = "Test String";
         private Text gameOverScore;
         private Text gameOverScoreComment;
-        public TextMeshProUGUI difficultyTextBox; 
+        public TextMeshProUGUI difficultyTextBox;
 
 
         private Dictionary<int, string> scoreComments = new Dictionary<int, string>
@@ -99,7 +98,7 @@ namespace GameDevWithMarco.Managers
 
         }
 
-     
+
 
 
         private void FinalComment()

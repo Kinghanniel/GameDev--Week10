@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using GameDevWithMarco.Managers;
+using UnityEngine;
 
 namespace GameDevWithMarco
 {

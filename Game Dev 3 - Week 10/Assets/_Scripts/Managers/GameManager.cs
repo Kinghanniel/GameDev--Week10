@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 namespace GameDevWithMarco.Managers
@@ -19,7 +17,7 @@ namespace GameDevWithMarco.Managers
         public float goodPackageSpawnRate = 0.6f; // Default spawn rate for good packages
         public float lifePackageSpawnRate = 0.05f; // Default spawn rate for life packages
 
-    
+
 
         [SerializeField] GameEvent restartGame;
         [SerializeField] GameEvent gameOver;
@@ -139,7 +137,7 @@ namespace GameDevWithMarco.Managers
 
         }
 
-        
+
 
         public void RestartGame()
         {
